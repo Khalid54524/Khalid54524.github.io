@@ -1,0 +1,138 @@
+ body {
+   background-color: pink;
+   margin: 0;
+   font-family: Arial, Helvetica, sans-serif;
+ }
+
+ @media screen and (min-width: 480px) {
+   body {
+     background-color: lightblue;
+   }
+ }
+
+ .header {
+   margin-left: 1px;
+   padding: 2px;
+   font-size: 40px;
+   text-align: center;
+   background: darkred;
+   color: darkblue;
+ }
+
+ .topnav {
+   padding right: 100px;
+   overflow: hidden;
+   background-color: darkblue;
+ }
+
+ .topnav a {
+   float: left;
+   color: lightblue;
+   text-align: center;
+   padding: 14px 16px;
+   text-decoration: none;
+   font-size: 17px;
+ }
+
+ .topnav a:hover {
+   background-color: grey;
+   color: black;
+ }
+
+ .topnav a.active {
+   background-color: brown;
+   color: aliceblue;
+ }
+
+ .topnav input[type=text] {
+   float: right;
+   padding: 6px;
+   margin-top: 8px;
+   margin-right: 16px;
+   border: none;
+   font-size: 17px;
+ }
+
+ p {
+   text-indent: 50px;
+   text-align: justify;
+ }
+
+ .text {
+
+   padding: 10px;
+   background-color: grey;
+   width: 100px;
+   border: 15px solid white;
+   padding: 50px;
+   margin: 20px;
+ }
+
+ .blog-list {
+   margin-left: 20px;
+   width: 75%;
+
+ }
+
+ .post {
+   border-bottom: 1px solid black;
+   padding: 20px;
+   margin-left: 30px;
+ }
+
+ .post-inner-container {
+   margin-bottom: 100px;
+   border: 10px;
+   margin-left: 50px;
+   display: flex;
+   flex-direction: row;
+ }
+
+ .post-inner {
+   border: 10px;
+   margin-left: 50px;
+   display: flex;
+   flex-direction: row;
+ }
+
+ .post-archives {
+   border: 10px solid;
+   background-color: lightgray;
+   padding-right: 200px;
+   padding-left: 200px;
+   margin-bottom: 2500px;
+ }
+
+ .post-text {
+
+   border: 1px;
+   margin-left: 30px;
+ }
+
+ .main-content {
+   padding-bottom: 10px;
+   display: flex;
+   flex-direction: row;
+ }
+
+ .older-post {
+   border: 10px solid;
+   margin-bottom: 60px;
+   margin-left: 750px;
+   margin-top: 50px;
+   border: 1px;
+ }
+
+ .footer {
+   text-align-last: left;
+   border: 1px;
+   padding: 1px;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color: red;
+   color: aliceblue;
+   text-align: center;
+   margin-top: 90px;
+
+ }
